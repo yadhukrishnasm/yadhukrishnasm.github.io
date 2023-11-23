@@ -1,2 +1,2 @@
 # yadhukrishnasm.github.io
-My personal portfolio website
+use this link to view the website yadhukrishnasm.github.io/
