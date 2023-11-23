@@ -1,0 +1,89 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+
+  body{
+      background-color: #1B1A13;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+  }
+
+#myPhoto{
+    height: 500px ;
+    background-color:#D25D08;
+    border-radius: 400%;
+    box-shadow: #F8E9C3 0px 0px 50px;
+    margin-bottom: 30px;
+
+}
+#myName{
+    color: #D25D08;
+    font-family: 'Ledger', serif;
+    font-size: 210px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing:15px ;
+    text-shadow: #F8E9C3 2px 2px 1px;
+}
+
+.heading{
+    
+    text-align: center;
+    font-family: 'Ledger', serif;
+    display: list-item;
+
+}
+
+
+
+.connections{
+    width: 100%;
+
+    margin-top:50px;
+    margin-bottom: 100px;
+}
+.icon{
+    height: 50px;
+    padding: 20px;
+}
+
+.intro{
+    color: #F8E9C3;
+    font-family: Arapey;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin: 50px;
+
+}
+
+/* .intro i{
+    background-color: #f8e9c3a0;
+    color: #1B1A13;
+    border-radius: 8px;
+    padding: 10px;
+} */
+
+.worksDone{
+
+    width: 70%;
+    height: 500px;
+    padding: 30px;
+    background-color: #D25D08;
+    margin: 0 auto;
+    display: table;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 20px;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    text-align:center;
+    
+    color: #F8E9C3;
+}
