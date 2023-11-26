@@ -1,30 +1,47 @@
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 
-  body{
-      background-color: #1B1A13;
-      margin: auto;
-      justify-content: center;
-      align-items: center;
-  }
+body{
+    background-color: #1B1A13;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    overflow-y:auto;
+}
+/* body::-webkit-scrollbar{
+width: 0.5em;
+} */
 
 #myPhoto{
-    height: 500px ;
-    background-color:#D25D08;
+    height: 300px ;
+    background-color:#d1620d;
     border-radius: 400%;
     box-shadow: #F8E9C3 0px 0px 50px;
     margin-bottom: 30px;
-
+    visibility: visible;
 }
 #myName{
-    color: #D25D08;
+    color: #b84609;
+    margin-top: 30px;
     font-family: 'Ledger', serif;
     font-size: 210px;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing:15px ;
-    text-shadow: #F8E9C3 2px 2px 1px;
+    text-shadow: #F8E9C3 10px 10px 1px;
+    transition: text-shadow 1s ease-in,transform 0.5s ease-in;
+}
+.newName{
+    font-size:100px;
+}
+
+#myName:hover{
+    transform: translateY(-10px);  
+    text-shadow: #F8E9C3 20px 10px 1px;
 }
 
 .heading{
@@ -34,7 +51,6 @@
     display: list-item;
 
 }
-
 
 
 .connections{
@@ -71,7 +87,7 @@
     width: 70%;
     height: 500px;
     padding: 30px;
-    background-color: #D25D08;
+    background-color: #b84609;
     margin: 0 auto;
     display: table;
     border-radius: 10px;

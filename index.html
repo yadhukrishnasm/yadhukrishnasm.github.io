@@ -2,30 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initia l-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>yadhukrishnasm</title>
+    <link rel="icon" type="img" href="./assets/Untitled-1.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
-    <div class="heading">
-        <h1 id="myName">YADHU <br>KRISHNA </h1>
-        <img src="./assets/myphoto.png" alt="My smiling" id="myPhoto">
-
-        <div class="connections">
-            <a href="https://github.com/yadhukrishnasm">
-                <img src="./assets/Github icon.svg" alt="gitIcon" Class="icon">
-            </a>
-            <a href="https://www.linkedin.com/in/yadhu-krishna-657b8b20b/">
-                <img src="./assets/in.svg" alt="linkedinIcon" Class="icon">
-            </a>
+    <div data-scroll-container>
+        <div class="heading">
+            <section class="head" data-scroll-secion >
+                <div id="myName"><b>YADHU<br>KRISHNA</b> </div>
+                <img src="./assets/myphoto.png" alt="Mee smiling" id="myPhoto">
+            </section>
+            <section class="connections" data-scroll-secion="" >
+                <a href="https://github.com/yadhukrishnasm">
+                    <img src="./assets/Github icon.svg" alt="gitIcon" Class="icon">
+                </a>
+                <a href="https://www.linkedin.com/in/yadhu-krishna-657b8b20b/">
+                    <img src="./assets/in.svg" alt="linkedinIcon" Class="icon">
+                </a>
+            </section>
         </div>
+        <div class="intro">I am an aspiring <i>Web Developer</i> and <i>UI/UX designer</i></div>
+        <div class="worksDone" data-scroll-speed="4"  data-scroll-direction="horizontal">
+            <section class="works"></section>
+            <section class="works"></section>
+            <section class="works"></section>
+        </div>
+        <footer >
+            @yadhukrishnasm
+        </footer>
     </div>
-    <div class="intro">I am an aspiring <i>Web Developer</i> and <i>UI/UX designer</i></div>
-    <div class="worksDone">
-
-    </div>
-    <footer>
-        @yadhukrishnasm
-    </footer>
 </body>
 </html>
