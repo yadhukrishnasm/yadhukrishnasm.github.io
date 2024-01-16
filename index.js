@@ -11,14 +11,13 @@ window.addEventListener('scroll',()=>{
 //     smooth:true
 // })
 
-nameDiv.addEventListener('mousemove',(event)=>{
+window.addEventListener('mousemove',(event)=>{
 
     let xandY = xY(event.clientX,event.clientY)
     console.log("x :"+xandY.resX+" y :"+xandY.resY)
     
-    nameDiv.style["text-shadow"] = `${xandY.resX}px ${xandY.resY}px 1px #F8E9C3`;
+    nameDiv.style["text-shadow"] = `${xandY.resX}px ${xandY.resY}px 2px #F8E9C3`;
 })
-
 
 function xY(x,y){
     let res={
@@ -37,7 +36,6 @@ function xY(x,y){
             return res={
                 resX:0,
                 resY:0
-      
             }
         }
         return res
