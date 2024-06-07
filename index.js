@@ -29,8 +29,8 @@ function xY(x,y){
     
         if(x != widthCenter && y!=heightCenter){
             res ={
-                resX:(x-widthCenter)/10,
-                resY:(y-heightCenter)/10,
+                resX:((x-widthCenter)/10)/4,
+                resY:((y-heightCenter)/10)/4    ,
             }
         }else{
             return res={
