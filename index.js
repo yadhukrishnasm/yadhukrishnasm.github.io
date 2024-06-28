@@ -1,6 +1,10 @@
 const nameDiv = document.querySelector("#myName");
 const image = document.getElementById('myPhoto');
 console.log(window.innerWidth)
+
+window.onload= ()=>{
+    document.body.classList.remove("hidden");
+}
 window.addEventListener('scroll',()=>{
     console.log(scrollY);
 })
