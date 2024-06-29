@@ -12,6 +12,10 @@ html{
     display: none;
 }
 
+h3{
+    margin: 0px;
+}
+
 body{
     background-image: url(./assets/image-from-rawpixel-id-12613923-png.png);
     background-color: rgb(29, 206, 194);
@@ -29,24 +33,60 @@ width: 0.5em;
     align-items:center;
     justify-content: center;
     flex-direction:column;
+    position: relative;
 
+}
+#name{
+    font-size: 4em;
+    margin: 0;
+    text-shadow: 0px 20px 10px  rgba(0, 0, 0, 0.495);
+    z-index: 5;
+    position: relative;
+}
+
+.about-container{
+    position: absolute;
+    left: 4em;
+    padding: 15px;
+    top: 4em;
+    border-radius: 20px;
+    box-shadow: -10px 5px 0px 0px rgba(10, 10, 10, 0.321);
+    transform: rotate(-5deg);
+    background-color: wheat;
+    transition: ease-in-out .5s all;
+}
+
+.work-container{
+    position: absolute;
+    right: 4em;
+    padding: 15px;
+    top: 4em;
+    border-radius: 20px;
+    transform: rotate(-2deg);
+    box-shadow: 10px 6px 0px 0px rgba(10, 10, 10, 0.321);
+    background-color: wheat;
+    transition: ease-in-out .5s all;
 }
 
 .landing-content{
     align-self: center;
+    width: fit-content;
     color: yellow;
     font-size: larger;
+    animation: ease-in-out .4s slide;
 }
 
 #img{
     height: 35vh;
     transition: all .3s ease-in-out;
     position: fixed;
+    opacity: 0;
     bottom: 0px;
     left: calc(50vw - (40vh / 2));
-    animation: slide .5s linear;
+    animation: slide 1s ease-in-out forwards;
+    animation-delay: 1s;
 }
-
+ 
 @keyframes slide {
     0%{
         opacity: 0;
@@ -54,7 +94,7 @@ width: 0.5em;
     }    
     40%{
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(40px);
     }
     100%{
         opacity: 1;
