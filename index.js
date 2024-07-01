@@ -2,18 +2,14 @@ const nameDiv = document.querySelector("#myName");
 const image = document.getElementById('myPhoto');
 console.log(window.innerWidth)
 
-window.onload= ()=>{
+document.addEventListener("DOMContentLoaded", function() {
     document.body.classList.remove("hidden");
-}
+});
 window.addEventListener('scroll',()=>{
     console.log(scrollY);
 })
 
-
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('[data-scroll-container]'),
-//     smooth:true
-// })
+    
 
 window.addEventListener('mousemove',(event)=>{
 

@@ -1,6 +1,5 @@
 
-
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Paytone+One&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -39,33 +38,136 @@ width: 0.5em;
 #name{
     font-size: 4em;
     margin: 0;
-    text-shadow: 0px 20px 10px  rgba(0, 0, 0, 0.495);
+    text-shadow: 0px 20px 8px  rgba(0, 0, 0, 0.495);
     z-index: 5;
     position: relative;
 }
 
+.socials-container{
+    max-height: 4em;
+    display: flex;
+    position: absolute;
+    left: calc(50vw - (34vh / 2));
+    top: 4em;
+    height: max-content;
+    border-radius: 20px;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+.logo{
+    height: 40px;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+
+
 .about-container{
     position: absolute;
-    left: 4em;
+    left: 3em;
     padding: 15px;
     top: 4em;
     border-radius: 20px;
-    box-shadow: -10px 5px 0px 0px rgba(10, 10, 10, 0.321);
-    transform: rotate(-5deg);
-    background-color: wheat;
-    transition: ease-in-out .5s all;
+    box-shadow: -20px 10px 5px 0px rgba(10, 10, 10, 0.321);
+    transform: rotate(-3deg);
+    background-color:#feff9c;
+    max-width: 20vw;
+    line-height: 25px;
+    font-size: 110%;
+    max-height: 50vh;
+    transition: ease-in-out .2s all;
+    transition-delay: 200ms;
+    h3{
+        color: rgb(31, 28, 109);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+    #aboutme{
+        color: rgba(0, 0, 0, 0.715);
+        font-family: "Architects Daughter", cursive;
+        font-weight: 600;
+        font-style: normal;        
+    }
+}
+.about-container:hover{
+    transform: scale(1.01) rotateY(-0.5deg) ;
+}
+
+.exp-container{
+    position: absolute;
+    left: 3em;
+    padding: 15px;
+    bottom: 4em;
+    border-radius: 20px;
+    box-shadow: -20px 10px 5px 0px rgba(10, 10, 10, 0.321);
+    transform: rotate(2deg);
+    background-color:#cdfc93;
+    max-width: 20vw;
+    max-height: 30vh;
+    line-height: 30px;
+    transition: ease-in-out .2s all;
+    transition-delay: 200ms;
+    h3{
+        color: rgba(3, 72, 2, 0.941);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+    .exp{
+        color: rgba(0, 0, 0, 0.715);
+        font-family: "Architects Daughter", cursive;
+        font-style: normal;        
+    }
+}   
+
+
+.works{
+    color: rgba(0, 0, 0, 0.715);
+    font-weight: 600;
+    font-style: normal; 
+    h3{
+        font-family: "Architects Daughter", cursive;
+    }
+    p{
+        font-family: "Architects Daughter", cursive;
+        line-height: 140%;
+    }
+    .git{
+        font-size: large;
+    }
+}
+hr{
+    color: black;
+}
+
+#works-heading{
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: larger;
 }
 
 .work-container{
     position: absolute;
-    right: 4em;
-    padding: 15px;
-    top: 4em;
-    border-radius: 20px;
-    transform: rotate(-2deg);
-    box-shadow: 10px 6px 0px 0px rgba(10, 10, 10, 0.321);
-    background-color: wheat;
-    transition: ease-in-out .5s all;
+    right: 3em;
+    top: 5em;
+    max-width: 24vw;
+    overflow: scroll;
+    height: 80vh;
+    padding: 30px;
+    display: flex;  
+    box-shadow: 20px 15px 4px 5px rgba(0, 0, 0, 0.374);
+    transform: rotate(1deg);
+    border-radius: 20px ;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #ffc14a;
+    h3{
+        color: rgba(3, 50, 120, 0.941);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 600;
+    }
 }
 
 .landing-content{
@@ -76,16 +178,39 @@ width: 0.5em;
     animation: ease-in-out .4s slide;
 }
 
-#img{
+.image-container{
     height: 35vh;
     transition: all .3s ease-in-out;
     position: fixed;
     opacity: 0;
+    width: max-content;
     bottom: 0px;
     left: calc(50vw - (40vh / 2));
     animation: slide 1s ease-in-out forwards;
     animation-delay: 1s;
 }
+#img{
+    height: 35vh;
+}
+.image-relative-container{
+    position: relative;
+}
+
+#hey{
+    position: absolute;
+    top : 0px;
+    right: 0px;
+    opacity: 0;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px 30px 30px 0px;
+    background-color: rgba(225, 213, 187, 0.979);
+    animation: slide .5s cubic-bezier(0.18, 0.31, 0.94,-0.05) forwards;
+    animation-delay: 3s;
+    color: rgba(0, 0, 0, 0.715);
+    font-family: "Architects Daughter", cursive;
+    font-style: normal; 
+    font-weight: 600;
+}   
  
 @keyframes slide {
     0%{
