@@ -1,6 +1,4 @@
-<script>
-	import { Dot } from '@lucide/svelte';
-</script>
+
 
 <div class="space-y-5">
 	<div class="flex flex-col md:flex-row-reverse md:justify-between">
@@ -23,8 +21,7 @@
 				Freelance Developer • Systems Learner • Builder of Software, Hardware & Ideas
 			</p>
 			<p class="break works">
-				Hi, my name is <span class="font-bold">Yadhu Krishna</span>. Fellow human's who finds beauty
-				in the uncomplicated!
+				Hi, my name is <span class="font-bold">Yadhu Krishna</span>. this is my personal portfolio where i post my updates and also thinking about blogging also!
 			</p>
 		</div>
 	</div>

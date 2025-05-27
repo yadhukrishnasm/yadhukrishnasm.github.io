@@ -5,26 +5,23 @@
     import { onMount } from 'svelte';
 
     let { children } = $props();
-    let isLoading = $state(true); // Loading state
+    let isLoading = $state(true); 
 
     const isActive = (route: string) => {
         return $page.url.pathname === route;
     };
 
-    // Wait for all assets (images, fonts) to load
     onMount(() => {
         const handleLoad = () => {
-            isLoading = false; // Hide the loader once everything is loaded
+            isLoading = false;
         };
 
-        // Check if the document is already loaded
         if (document.readyState === 'complete') {
             handleLoad();
         } else {
             window.addEventListener('load', handleLoad);
         }
 
-        // Cleanup event listener
         return () => {
             window.removeEventListener('load', handleLoad);
         };
