@@ -18,7 +18,7 @@
 				YADHU KRISHNA S M
 			</p>
 			<p class=" mb-5 text-sm font-light">
-				Freelance Developer • Systems Learner • Builder of Software, Hardware & Ideas
+				 Learner • Builder 
 			</p>
 			<p class="break works">
 				Hi, my name is <span class="font-bold">Yadhu Krishna</span>. this is my personal portfolio where i post my updates and also thinking about blogging also!
@@ -29,12 +29,7 @@
 	<div class="space-y-2">
 		<p class="text-xl font-bold">About</p>
 		<p>
-			I'm a freelance developer with a focus on frontend development and full product workflows.
-			I’ve built a complete POS system from scratch — from interface to architecture — and I'm
-			preparing it for release. Outside of client work, I regularly solve algorithmic problems,
-			explore system-level programming. I'm also experimenting with hardware projects — including a
-			compact cyberdeck, and smart lighting devices. I’m drawn to minimal, functional design and
-			enjoy working across both software and hardware to build useful tools.
+			I'm a learner who is currently exploring different lands of tech.
 		</p>
 	</div>
 
@@ -42,13 +37,11 @@
 		<p class="text-xl font-bold">Current Focus</p>
 		<ul class="list-disc pl-5">
 			<li>
-				Developing and preparing to launch a full-featured POS system called <a href="https://obscidian.site" class="underline"
-					>SalesGo,</a> &nbsp; built from the ground up
+				Developed an custom delivery management software. Looking forward to releasing <a href="https://obscidian.site" class="underline"
+					>SalesGo</a> 
 			</li>
-			<li>Practicing data structures and algorithms daily to strengthen core problem-solving skills</li>
-			<li>Learning systems programming and operating system fundamentals</li>
-			<li>Interested in minimalist design, embedded systems, and full-stack product development</li>
-			<li>Actively looking for internships and job roles in software development, systems, or embedded tech</li>
+			<li>Trying my best to understand System designs, Networks, ML and more...</li>
+			<li>Intern at a product studio - <a href="https://nysaclan.com/">nysa clan</a></li>
 		</ul>
 	</div>
 </div>

@@ -7,6 +7,15 @@
 
 	<div>
 		<p class="text-lg font-semibold hover:underline">
+			<a href="https://p2pchat-0cdf.onrender.com/">SalesGo</a>
+		</p>
+		<p>
+			A custom delivery management solution for businesses with, inventory management, reports, billing and live route tracking and more. Created on a client request and looking forward to make it a general product for similar businesses in the future.
+		</p>
+		<a href="https://obscidian.site" class="git">SalesGo</a>
+	</div>
+	<div>
+		<p class="text-lg font-semibold hover:underline">
 			<a href="https://p2pchat-0cdf.onrender.com/">P2P chat</a>
 		</p>
 		<p>
