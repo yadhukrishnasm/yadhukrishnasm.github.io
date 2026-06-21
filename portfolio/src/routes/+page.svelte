@@ -74,9 +74,13 @@
 					<span class="text-sm text-neutral-500">2026 &mdash; ongoing</span>
 				</div>
 				<p class="mt-1 leading-relaxed text-neutral-700">
-					A platform connecting customers, technicians, and authorized service centers, so
-					nobody's chasing a repair status over WhatsApp. I'm the main frontend person, and I
-					spend a lot of time talking to the service centers about what actually matters to them.
+					A system built to bring transparency to after-sales product servicing, connecting
+					every party involved in the process. It includes a customer app for registering
+					products, raising service requests, and tracking updates; a service-center panel for
+					managing requests by pincode, with basic HR and accounting; a technician app for
+					handling jobs and updating status with file uploads; a dealer app for raising service
+					requests and demo calls; and a central admin panel for onboarding and managing service
+					centers. I work across the frontend for all of it.
 				</p>
 			</div>
 
