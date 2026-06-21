@@ -86,11 +86,9 @@
 					<span class="text-sm text-neutral-500">2025</span>
 				</div>
 				<p class="mt-1 leading-relaxed text-neutral-700">
-					Started as a favor &mdash; a client needed billing and inventory sorted out. Grew into
-					a full delivery and route-tracking system with a web and mobile app. Thinking about
-					opening it up for other small businesses.
+					An admin panel plus a React Native mobile app with geofencing for delivery staff,
+					inventory and pricing tracking, and bill generation.
 				</p>
-				<a href="https://obscidian.site" class="text-sm">obscidian.site</a>
 			</div>
 
 			<div>

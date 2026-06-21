@@ -15,7 +15,7 @@
 			<img
 				src="/images/img.webp"
 				alt="Yadhu Krishna"
-				class="h-44 w-full border border-neutral-400 object-cover object-[50%_center]"
+				class="h-56 w-full border border-neutral-400 object-cover object-top"
 			/>
 			<h1 class="mt-4 text-xl font-bold leading-tight">Yadhu Krishna S M</h1>
 			<p class="mt-1 text-sm text-neutral-600">Software Engineer at Nysa Clan</p>
