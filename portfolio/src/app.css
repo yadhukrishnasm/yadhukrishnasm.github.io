@@ -1,18 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
-
-@font-face {
-  font-family: 'klemerDisplay';
-  font-style: normal;
-  font-weight: 200 700;
-  font-display: swap;
-  src: url('/assets/fonts/KD.ttf') format('truetype');
+@theme {
+  --font-body: "Plus Jakarta Sans", "Verdana", sans-serif;
+  --font-mono: "Courier New", "Courier", monospace;
 }
 
-@theme {
-  --font-klemerDisplay: "klemerDisplay", sans-serif;
-  --font-dm-serif: "DM Serif Text", serif;
-  --font-castoro: "Castoro Titling", serif;
+body {
+  background-color: #fafaf8;
+  color: #24281f;
+}
+
+a {
+  font-family: var(--font-mono);
+  font-size: 1.1em;
+  color: #a8401f;
+  text-decoration: underline;
+  text-decoration-color: #a8401f;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #7a2c12;
+  text-decoration-color: #7a2c12;
+}
+
+.ascii-rule {
+  letter-spacing: -1px;
+  color: #b9b29a;
+  overflow: hidden;
+  white-space: nowrap;
+  user-select: none;
 }
