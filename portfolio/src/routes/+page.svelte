@@ -1,16 +1,43 @@
 <svelte:head>
-	<title>Yadhu Krishna S M — Maker &amp; Frontend Engineer</title>
+	<title>Yadhu Krishna S M (yadhukrishnasm) — Frontend Engineer &amp; Maker</title>
 	<meta
 		name="description"
-		content="Yadhu Krishna S M — a maker and frontend engineer at Nysa Clan, embracing the beauty of the uncomplicated. Portfolio, projects, and resume."
+		content="Yadhu Krishna S M, also known as yadhukrishnasm or yksm — a frontend engineer at Nysa Clan and maker, embracing the beauty of the uncomplicated. Projects, work, and resume."
 	/>
-	<meta property="og:title" content="Yadhu Krishna S M — Maker &amp; Frontend Engineer" />
+	<link rel="canonical" href="https://yadhukrishnasm.vercel.app/" />
+
+	<meta property="og:title" content="Yadhu Krishna S M (yadhukrishnasm) — Frontend Engineer & Maker" />
 	<meta
 		property="og:description"
-		content="Embracing the beauty of the uncomplicated. Maker and frontend engineer at Nysa Clan."
+		content="Embracing the beauty of the uncomplicated. Frontend engineer at Nysa Clan and maker."
 	/>
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="/images/img.webp" />
+	<meta property="og:url" content="https://yadhukrishnasm.vercel.app/" />
+	<meta property="og:image" content="https://yadhukrishnasm.vercel.app/images/img.webp" />
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Yadhu Krishna S M (yadhukrishnasm)" />
+	<meta
+		name="twitter:description"
+		content="Frontend engineer at Nysa Clan and maker. Projects, work, and resume."
+	/>
+	<meta name="twitter:image" content="https://yadhukrishnasm.vercel.app/images/img.webp" />
+
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		'@context': 'https://schema.org',
+		'@type': 'Person',
+		name: 'Yadhu Krishna S M',
+		alternateName: ['yadhukrishnasm', 'yksm'],
+		url: 'https://yadhukrishnasm.vercel.app/',
+		image: 'https://yadhukrishnasm.vercel.app/images/img.webp',
+		jobTitle: 'Frontend Engineer',
+		worksFor: { '@type': 'Organization', name: 'Nysa Clan', url: 'https://nysaclan.com/' },
+		address: { '@type': 'PostalAddress', addressLocality: 'Kozhikode', addressRegion: 'Kerala', addressCountry: 'IN' },
+		sameAs: [
+			'https://github.com/yadhukrishnasm',
+			'https://www.linkedin.com/in/yadhu-krishna-657b8b20b/'
+		]
+	})}</script>`}
 </svelte:head>
 
 <div class="space-y-12">

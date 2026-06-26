@@ -1,6 +1,10 @@
 <svelte:head>
-	<title>Resume — Yadhu Krishna S M</title>
-	<meta name="description" content="Resume of Yadhu Krishna S M, software engineer at Nysa Clan." />
+	<title>Resume — Yadhu Krishna S M (yadhukrishnasm)</title>
+	<meta
+		name="description"
+		content="Resume of Yadhu Krishna S M (yadhukrishnasm, yksm), frontend engineer at Nysa Clan."
+	/>
+	<link rel="canonical" href="https://yadhukrishnasm.vercel.app/resume" />
 </svelte:head>
 
 <div class="space-y-3">

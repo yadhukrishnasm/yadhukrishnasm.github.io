@@ -1,0 +1,25 @@
+# Yadhu Krishna S M
+
+Also known as: yadhukrishnasm, yksm.
+
+> Frontend engineer at Nysa Clan, and a maker. Based in Kozhikode, Kerala, India.
+
+Yadhu Krishna S M builds web and mobile software, mostly frontend (React, React Native, Next.js, SvelteKit, Remix), and is slowly picking up Go for backend work. Currently a Software Engineer at Nysa Clan, and a distance MCA student.
+
+## Pages
+
+- [Home](https://yadhukrishnasm.vercel.app/): introduction, current work, projects, work history, and things still queued up to build.
+- [Resume](https://yadhukrishnasm.vercel.app/resume): resume preview and PDF download.
+- [Blog](https://yadhukrishnasm.vercel.app/blog): write-ups on projects and things being learned (coming soon).
+
+## Notable projects
+
+- Namaste Service — a system for transparent after-sales product servicing, with apps for customers, technicians, dealers, and service centers, plus a central admin panel.
+- Trace Your Data (https://trace-your-data.vercel.app/) — a graph view of every connection in a frontend codebase.
+- SalesGo — an admin panel and React Native app for delivery, inventory, and billing, with geofencing.
+- Service Bill — a billing app built specifically for authorized service centers.
+
+## Links
+
+- GitHub: https://github.com/yadhukrishnasm
+- LinkedIn: https://www.linkedin.com/in/yadhu-krishna-657b8b20b/

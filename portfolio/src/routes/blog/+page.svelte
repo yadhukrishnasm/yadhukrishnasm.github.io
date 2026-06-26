@@ -1,9 +1,10 @@
 <svelte:head>
-	<title>Blog — Yadhu Krishna S M</title>
+	<title>Blog — Yadhu Krishna S M (yadhukrishnasm)</title>
 	<meta
 		name="description"
-		content="Write-ups on projects and things Yadhu Krishna is learning. Coming soon."
+		content="Write-ups on projects and things Yadhu Krishna S M (yksm) is learning. Coming soon."
 	/>
+	<link rel="canonical" href="https://yadhukrishnasm.vercel.app/blog" />
 </svelte:head>
 
 <div class="space-y-4">
