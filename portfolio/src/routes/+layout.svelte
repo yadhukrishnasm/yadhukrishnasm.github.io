@@ -38,6 +38,12 @@
 					<GithubIcon size={18} />
 				</a>
 			</div>
+
+			<div>
+                <p class="text-neutral-500 text-xs mt-5">
+                    last updated on july 2026
+                </p>
+			</div>
 		</aside>
 
 		<!-- Content -->
