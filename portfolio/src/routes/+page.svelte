@@ -1,25 +1,25 @@
 <svelte:head>
-	<title>Yadhu Krishna S M (yadhukrishnasm) — Frontend Engineer &amp; Maker</title>
+	<title>Yadhu Krishna S M — Software Engineer &amp; Maker</title>
 	<meta
 		name="description"
-		content="Yadhu Krishna S M, also known as yadhukrishnasm or yksm — a frontend engineer at Nysa Clan and maker, embracing the beauty of the uncomplicated. Projects, work, and resume."
+		content="Yadhu Krishna S M — Software Engineer working with React, TypeScript, modern frontend frameworks, and web applications."
 	/>
 	<link rel="canonical" href="https://yadhukrishnasm.vercel.app/" />
 
-	<meta property="og:title" content="Yadhu Krishna S M (yadhukrishnasm) — Frontend Engineer & Maker" />
+	<meta property="og:title" content="Yadhu Krishna S M — Software Engineer & Maker" />
 	<meta
 		property="og:description"
-		content="Embracing the beauty of the uncomplicated. Frontend engineer at Nysa Clan and maker."
+		content="Software Engineer working across frontend applications, APIs, and e-commerce workflows."
 	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://yadhukrishnasm.vercel.app/" />
 	<meta property="og:image" content="https://yadhukrishnasm.vercel.app/images/img.webp" />
 
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Yadhu Krishna S M (yadhukrishnasm)" />
+	<meta name="twitter:title" content="Yadhu Krishna S M" />
 	<meta
 		name="twitter:description"
-		content="Frontend engineer at Nysa Clan and maker. Projects, work, and resume."
+		content="Software Engineer working with React, TypeScript, and modern web technologies."
 	/>
 	<meta name="twitter:image" content="https://yadhukrishnasm.vercel.app/images/img.webp" />
 
@@ -30,7 +30,7 @@
 		alternateName: ['yadhukrishnasm', 'yksm'],
 		url: 'https://yadhukrishnasm.vercel.app/',
 		image: 'https://yadhukrishnasm.vercel.app/images/img.webp',
-		jobTitle: 'Frontend Engineer',
+		jobTitle: 'Software Engineer',
 		worksFor: { '@type': 'Organization', name: 'Nysa Clan', url: 'https://nysaclan.com/' },
 		address: { '@type': 'PostalAddress', addressLocality: 'Kozhikode', addressRegion: 'Kerala', addressCountry: 'IN' },
 		sameAs: [
@@ -41,152 +41,106 @@
 </svelte:head>
 
 <div class="space-y-12">
-	<!-- Hook -->
 	<section>
 		<p class="text-2xl leading-snug sm:text-3xl">Embracing the beauty of the uncomplicated.</p>
 		<p class="mt-4 leading-relaxed text-neutral-700">
-			I'm a maker first, a frontend engineer for now &mdash; software is just where I happen to be
-			building right now.
+			I'm a maker first, a software engineer for now. I enjoy understanding how things work and
+			building software that solves practical problems.
 		</p>
 		<p class="mt-4 leading-relaxed text-neutral-700">
-			I currently work at <a href="https://nysaclan.com/">Nysa Clan</a>, and I'm doing an MCA
-			alongside it as a distance student. Most of what I build is for other people &mdash; clients,
-			a job, a project that needed doing &mdash; and the things I actually want to build for myself
-			are still sitting in the queue.
+			I'm currently a Software Engineer at <a href="https://nysaclan.com/">Nysa Clan</a>. My work
+			involves building and maintaining web applications, integrating APIs, working with
+			e-commerce workflows, and collaborating with stakeholders to turn requirements into
+			working features.
 		</p>
 		<p class="mt-4 leading-relaxed text-neutral-700">
-			I've been writing TypeScript and JavaScript for about two years now &mdash; mostly React and
-			React Native, with some Next.js, SvelteKit, and Remix along the way. Nothing I'd call a
-			specialty, just whatever the project needed.
-		</p>
-		<p class="mt-4 leading-relaxed text-neutral-700">
-			I'm mostly frontend. I haven't written a ton of backend code, but I write some when it's
-			needed and know my way around it. If I get to choose, I reach for Go &mdash; I'm slowly
-			picking it up these days.
+			Most of my experience is frontend-focused. I work primarily with JavaScript, TypeScript,
+			React, and related frameworks, while also getting practical exposure to backend systems,
+			cloud infrastructure, and application deployment.
 		</p>
 	</section>
 
-	<!-- Projects as a plain list, in order -->
 	<section class="space-y-6">
 		<h2 class="border-b border-neutral-400 pb-1 text-lg font-bold text-neutral-800">Things I've built</h2>
-
-		<div class="space-y-6">
-			<div>
-				<div class="flex flex-wrap items-baseline gap-2">
-					<h3 class="font-bold">Trace Your Data</h3>
-					<span class="text-sm text-neutral-500">2026 &mdash; prototype</span>
-				</div>
-				<p class="mt-1 leading-relaxed text-neutral-700">
-					A graph view of a frontend codebase &mdash; not just the component tree, but every
-					connection in the project: the kind of thing you'd see if you ctrl-clicked through
-					every link in a React app and laid the whole trail out at once.
-				</p>
-				<a href="https://trace-your-data.vercel.app/" class="text-sm">trace-your-data.vercel.app</a>
-			</div>
-
-			<div>
-				<div class="flex flex-wrap items-baseline gap-2">
-					<h3 class="font-bold">Service Bill</h3>
-					<span class="text-sm text-neutral-500">2026 &mdash; ongoing</span>
-				</div>
-				<p class="mt-1 leading-relaxed text-neutral-700">
-					A service billing app built specifically for authorized service centers &mdash;
-					built around how they actually bill and track repairs. About to start a test run.
-				</p>
-			</div>
-
-			<div>
-				<div class="flex flex-wrap items-baseline gap-2">
-					<h3 class="font-bold">Namaste Service</h3>
-					<span class="text-sm text-neutral-500">2026 &mdash; ongoing</span>
-				</div>
-				<p class="mt-1 leading-relaxed text-neutral-700">
-					A system built to bring transparency to after-sales product servicing, connecting
-					every party involved in the process. It includes a customer app for registering
-					products, raising service requests, and tracking updates; a service-center panel for
-					managing requests by pincode, with basic HR and accounting; a technician app for
-					handling jobs and updating status with file uploads; a dealer app for raising service
-					requests and demo calls; and a central admin panel for onboarding and managing service
-					centers. I work across the frontend for all of it.
-				</p>
-			</div>
-
-			<div>
-				<div class="flex flex-wrap items-baseline gap-2">
-					<h3 class="font-bold">SalesGo</h3>
-					<span class="text-sm text-neutral-500">2025</span>
-				</div>
-				<p class="mt-1 leading-relaxed text-neutral-700">
-					An admin panel plus a React Native mobile app with geofencing for delivery staff,
-					inventory and pricing tracking, and bill generation.
-				</p>
-			</div>
-
-			<div>
-				<div class="flex flex-wrap items-baseline gap-2">
-					<h3 class="font-bold">Chithram</h3>
-					<span class="text-sm text-neutral-500">2024</span>
-				</div>
-				<p class="mt-1 leading-relaxed text-neutral-700">
-					A small experiment with SvelteKit and GSAP, just to try out some animation and
-					transitions.
-				</p>
-			</div>
-
-			<div>
-				<div class="flex flex-wrap items-baseline gap-2">
-					<h3 class="font-bold">P2P Chat</h3>
-					<span class="text-sm text-neutral-500">2024</span>
-				</div>
-				<p class="mt-1 leading-relaxed text-neutral-700">
-					Built solo for a hackathon &mdash; a peer-to-peer chat app over WebRTC with end-to-end
-					encryption, with a small AI add-on that tries to pick up on emotional cues and suggest
-					support.
-				</p>
-				<a href="https://github.com/yadhukrishnasm/p2pchat" class="text-sm">github</a>
-			</div>
-		</div>
-	</section>
-
-	<!-- Things waiting in the queue -->
-	<section class="space-y-6">
-		<h2 class="border-b border-neutral-400 pb-1 text-lg font-bold text-neutral-800">Things I want to build</h2>
-
 		<div>
-			<h3 class="font-bold">3D editor for dental clinics</h3>
+			<div class="flex flex-wrap items-baseline gap-2">
+				<h3 class="font-bold">Chithram</h3>
+				<span class="text-sm text-neutral-500">SvelteKit, GSAP</span>
+			</div>
 			<p class="mt-1 leading-relaxed text-neutral-700">
-				A web-based editor for modeling tooth caps and similar work, so smaller dental clinics
-				can do this on any machine without expensive specialized software, and just send clients
-				a link to see what the final result will look like.
+				A motion-focused UI showcase exploring SvelteKit and modern frontend animation
+				techniques.
 			</p>
 		</div>
 	</section>
 
-	<!-- Experience as a compact timeline, not bullet blocks -->
 	<section class="space-y-4">
 		<h2 class="border-b border-neutral-400 pb-1 text-lg font-bold text-neutral-800">Where I've worked</h2>
-		<div class="space-y-3">
+		<div class="space-y-4">
 			<div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-				<span class="w-32 flex-shrink-0 text-sm text-neutral-500">now &mdash; ~10 mo</span>
-				<p>
-					<span class="font-semibold">Software Engineer, Nysa Clan</span> &mdash; started as an
-					intern, then joined full-time. Small team, working directly with clients. Shipped a
-					Shopify fulfillment app and worked a little on GIS-related projects (QGIS, geospatial
-					data) &mdash; just a little, not an area I'd say I know well.
-				</p>
+				<span class="w-32 flex-shrink-0 text-sm text-neutral-500">Dec 2025 — present</span>
+				<div class="min-w-0 flex-1">
+					<p class="font-semibold">Software Engineer, Nysa Clan</p>
+					<p class="mt-1 leading-relaxed text-neutral-700">
+						Develop and maintain web applications using React, Remix, TypeScript, and Shopify
+						APIs. Build features and maintain e-commerce product workflows, contribute to
+						project proposals and technical breakdowns, and work with Python-based backends,
+						RAG, AWS Lambda, and traffic proxy configuration.
+					</p>
+				</div>
 			</div>
 			<div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-				<span class="w-32 flex-shrink-0 text-sm text-neutral-500">2024 &ndash; 2025</span>
-				<p><span class="font-semibold">Freelance Developer</span> &mdash; websites and small web apps for local businesses, one client at a time.</p>
+				<span class="w-32 flex-shrink-0 text-sm text-neutral-500">Sep — Oct 2025</span>
+				<div class="min-w-0 flex-1">
+					<p class="font-semibold">Intern, Nysa Clan</p>
+					<p class="mt-1 leading-relaxed text-neutral-700">
+						Worked in a small engineering team, learned GIS concepts and spatial data formats,
+						and built a simple application to load and visualize geospatial data.
+					</p>
+				</div>
 			</div>
 			<div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-				<span class="w-32 flex-shrink-0 text-sm text-neutral-500">2024</span>
-				<p><span class="font-semibold">B.Sc Computer Science</span>, Calicut University &mdash; lots of C++, data structures, and "why doesn't this segfault" moments.</p>
+				<span class="w-32 flex-shrink-0 text-sm text-neutral-500">Aug 2024 — Aug 2025</span>
+				<div class="min-w-0 flex-1">
+					<p class="font-semibold">Freelance Developer</p>
+					<p class="mt-1 leading-relaxed text-neutral-700">
+						Built custom web applications and business websites for clients. Developed
+						SalesGo, a billing and inventory platform with web and mobile applications.
+					</p>
+				</div>
 			</div>
 		</div>
-		<p class="text-sm text-neutral-600">
-			Also took part in a few hackathons along the way &mdash; Hackify, Magnathon, an IEDC
-			hackathon.
+	</section>
+
+	<section class="space-y-4">
+		<h2 class="border-b border-neutral-400 pb-1 text-lg font-bold text-neutral-800">Technologies</h2>
+		<div class="space-y-2 leading-relaxed text-neutral-700">
+			<p><span class="font-semibold text-neutral-900">Languages:</span> JavaScript, TypeScript</p>
+			<p><span class="font-semibold text-neutral-900">Frontend:</span> React.js, Next.js, React Native (Expo), SvelteKit, Remix</p>
+			<p><span class="font-semibold text-neutral-900">Styling &amp; UI:</span> Tailwind CSS, GSAP, Figma, HTML</p>
+			<p><span class="font-semibold text-neutral-900">Backend:</span> Node.js, PostgreSQL</p>
+			<p><span class="font-semibold text-neutral-900">Tools &amp; platforms:</span> Git, AWS, Linux</p>
+		</div>
+	</section>
+
+	<section class="space-y-4">
+		<h2 class="border-b border-neutral-400 pb-1 text-lg font-bold text-neutral-800">Education</h2>
+		<div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+			<span class="w-32 flex-shrink-0 text-sm text-neutral-500">May 2024</span>
+			<p><span class="font-semibold">B.Sc Computer Science</span>, Calicut University</p>
+		</div>
+		<p class="leading-relaxed text-neutral-700">
+			Coursework included C++, data structures, algorithms, object-oriented programming, and
+			systems programming.
 		</p>
+	</section>
+
+	<section class="space-y-4">
+		<h2 class="border-b border-neutral-400 pb-1 text-lg font-bold text-neutral-800">Hackathons</h2>
+		<ul class="list-disc space-y-2 pl-5 leading-relaxed text-neutral-700">
+			<li><span class="font-semibold text-neutral-900">Hackify 2024:</span> Built a WebRTC peer-to-peer chat application solo.</li>
+			<li><span class="font-semibold text-neutral-900">Magnathon 2024:</span> Led UI design for a disaster response coordination platform.</li>
+			<li><span class="font-semibold text-neutral-900">IEDC Hackathon 2024:</span> Designed user flows and interfaces for a rural waste collection tracking system.</li>
+		</ul>
 	</section>
 </div>
