@@ -10,7 +10,6 @@
 
 <div class="mx-auto max-w-5xl px-6 py-10 font-body md:px-10">
 	<div class="grid grid-cols-1 gap-10 md:grid-cols-[230px_1fr]">
-		<!-- Sidebar -->
 		<aside class="md:sticky md:top-10 md:self-start">
 			<img
 				src="/images/img.webp"
@@ -28,7 +27,7 @@
 			</nav>
 
 			<div class="mt-5 flex gap-4">
-				<a href="mailto:yadhu944krishna@gmail.com" aria-label="Email" class="no-underline">
+				<a href="mailto:yadhukrishna.me@gmail.com" aria-label="Email" class="no-underline">
 					<Mail size={18} />
 				</a>
 				<a href="https://www.linkedin.com/in/yadhu-krishna-657b8b20b/" aria-label="LinkedIn" class="no-underline">
@@ -39,14 +38,9 @@
 				</a>
 			</div>
 
-			<div>
-                <p class="text-neutral-500 text-xs mt-5">
-                    last updated on july 2026
-                </p>
-			</div>
+			<p class="mt-5 text-xs text-neutral-500">last updated on november 2026</p>
 		</aside>
 
-		<!-- Content -->
 		<main>
 			{@render children()}
 		</main>
